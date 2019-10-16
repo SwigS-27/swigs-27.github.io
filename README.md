@@ -1,3 +1,3 @@
-## https://www.gamejew.com
+## http://www.gamejew.co.uk
 
 honestly, its easier than hosting it myself lol
