@@ -1,6 +1,0 @@
-site_name: a
-theme: cinder
-markdown_extensions:
-  - admonition
-nav:
-    - Home: index.md
