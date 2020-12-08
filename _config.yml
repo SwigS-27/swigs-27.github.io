@@ -1,4 +1,4 @@
 site_name: Hell.
-theme: jekyll-theme-hacker
+theme: cinder
 nav:
     - Home: index.md
