@@ -1,7 +1,7 @@
   <style>
 {
-   font-size: 3em !important;
-   color: #000 !important;
+   font-size: 10em !important;
+   color: #000000 !important;
    font-family: Comic Sans MS !important;
 }
 a:link {
