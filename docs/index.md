@@ -1,4 +1,9 @@
   <style>
+{
+   font-size: 3em !important;
+   color: #000 !important;
+   font-family: Comic Sans MS !important;
+}
 a:link {
   color: white;
   background-color: transparent;
