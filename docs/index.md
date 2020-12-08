@@ -1,8 +1,8 @@
   <style>
 {
-   font-size: 10em !important;
-   color: #000000 !important;
-   font-family: Comic Sans MS !important;
+   font-size: 100em;
+   color: white;
+   font-family: Comic Sans MS;
 }
 a:link {
   color: white;
