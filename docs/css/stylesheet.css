@@ -101,6 +101,9 @@ body {
   left: 20px;
 }
 @media only screen and (max-width: 900px) {
+body {
+  padding: 5px
+}
 .container {
   display: block;
 }
