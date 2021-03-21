@@ -53,16 +53,16 @@ Exploit Stats:&nbsp; Pass = <span id=passCounterSL></span>&nbsp;&nbsp;&nbsp;:&nb
 <h1 style='font-size:18px;'>Auto-Load Mode Settings</h1>
 <button onclick=set_autoexp()> Auto Load Exploit = <span id=autoexp></span><script>autoexp.innerHTML=localStorage.autoexp;autoexpHen.innerHTML=localStorage.autoexpHen;autoexpHenb.innerHTML=localStorage.autoexpHenb;</script></button>
 <button onclick=set_autoexpHen()> Auto Load Exploit + HEN v2.1.3b = <span id=autoexpHen></span><script>autoexp.innerHTML=localStorage.autoexp;autoexpHen.innerHTML=localStorage.autoexpHen;autoexpHenb.innerHTML=localStorage.autoexpHenb;</script></button>
-<button onclick=set_autoexpHenb()> Auto Exploit + GoldHEN v1.0.0 = <span id=autoexpHenb></span><script>autoexp.innerHTML=localStorage.autoexp;autoexpHen.innerHTML=localStorage.autoexpHen;autoexpHenb.innerHTML=localStorage.autoexpHenb;</script></button>
+<button onclick=set_autoexpHenb()> Auto Exploit + GoldHEN v1.00 = <span id=autoexpHenb></span><script>autoexp.innerHTML=localStorage.autoexp;autoexpHen.innerHTML=localStorage.autoexpHen;autoexpHenb.innerHTML=localStorage.autoexpHenb;</script></button>
 <br><br><hr>
 <h1 style='font-size:18px;'>Load The Exploit Manually</h1>
 <button onclick=load_Exp()> Load The Exploit </button> or 
 <button onclick=load_ExpHen()> Load The Exploit + HEN v2.1.3b </button> or 
-<button onclick=load_ExpHenb()> Load The Exploit + GoldHEN v1.0.0 </button>
+<button onclick=load_ExpHenb()> Load The Exploit + GoldHEN v1.00 </button>
 </span>
 <span id=henSection style=display:none>
 <button onclick=load_HEN()> Load HEN v2.1.3b </button>&nbsp; or &nbsp;
-<button onclick=load_HENb()> Load GoldHEN v1.0.0 </button>&nbsp; or &nbsp;
+<button onclick=load_HENb()> Load GoldHEN v1.00 </button>&nbsp; or &nbsp;
 <button onclick=load_binloader()> Load A Bin File </button> 
 </span>
 </div>
@@ -187,9 +187,9 @@ justExp.style="display:none";
 setTimeout(jailbreak,500);
 }
 function load_ExpHenb(){
-msgs.innerHTML="Loading Exploit and GoldHEN v1.0.0, Please Wait ...";
+msgs.innerHTML="Loading Exploit and GoldHEN v1.00, Please Wait ...";
 LoadedMSG="PS4 Jailbroken - Press Circle To Exit";
-localStorage.henVer="v1.0.0";
+localStorage.henVer="GoldHEN v1.00";
 PLfile="pl_GoldHEN.bin";
 justExp.style="display:none";
 setTimeout(jailbreak,500);
@@ -209,10 +209,10 @@ setTimeout(LoaderHEN,500);
 }
 
 function load_HENb(){
-msgs.innerHTML="Loading GoldHEN v1.0.0 ...";
+msgs.innerHTML="Loading GoldHEN v1.00 ...";
 LoadedMSG="HEN Loaded - Press Circle To Exit";
 PLfile="pl_GoldHENb.bin";
-localStorage.henVer = "v1.0.0";
+localStorage.henVer = "GoldHEN v1.00";
 sessionStorage.henrun=1;
 setTimeout(LoaderHEN,500);
 }
